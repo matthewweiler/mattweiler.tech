@@ -1,0 +1,221 @@
+baseURL: "https://mattweiler.tech"
+languageCode: "en-us"
+title: "Matt Weiler"
+theme: hugo-profile
+
+Paginate: 1
+disqusShortname: mattweiler
+googleAnalytics: G-DKNVKFYTTK
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: false
+
+#Menus:
+#  main:
+#    - identifier: blog
+#      name: Blog
+#      title: Blog posts
+#      url: /blogs
+#      weight: 1
+
+    #Dropdown menu
+#    - identifier: dropdown
+#      title: Example dropdown menu
+#      name: Dropdown
+#      weight: 2
+#    - identifier: dropdown1
+#      title: example dropdown 1
+#      name: example 1
+#      url: /#
+#      parent: dropdown
+#      weight: 1
+#    - identifier: dropdown2
+#      title: example dropdown 2
+#      name: example 2
+#      url: /#
+#      parent: dropdown
+#      weight: 2
+
+params:
+  title: "Matt Weiler"
+  description: 
+  # staticPath: ""  # The path to serve the static files from
+  favicon: "/MAW.png"
+
+  theme:
+    disableThemeToggle: true
+    defaultTheme: "dark" # light
+
+  # font:
+  #   fontSize: 1.5rem # default: 1rem
+  #   fontWeight: 500 # default: 400
+  #   lineHeight: 1 # default: 1.5
+  #   textAlign: right # default: left
+
+  # color preference
+  # color:
+  #   textColor:
+  #   secondaryTextColor:
+  #   backgroundColor:
+  #   secondaryBackgroundColor:
+  #   primaryColor:
+  #   secondaryColor:
+
+  #   darkmode:
+  #     textColor:
+  #     secondaryTextColor:
+  #     backgroundColor:
+  #     secondaryBackgroundColor:
+  #     primaryColor:
+  #     secondaryColor:
+
+  # If you want to customize the menu, you can change it here
+  # navbar:
+  #   align: mx-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
+  #   brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+  #   brandName: "Profile" # Brand name for the brand | default is the title variable
+
+  #   menus:
+  #     disableAbout: true
+  #     disableExperience: true
+  #     disableEducation: true
+  #     disableProjects: true
+  #     disableAchievements: true
+  #     disableContact: true
+
+  # Hero
+  hero:
+    enable: true
+    intro: "Hi I'm"
+    title: "Matt."
+    subtitle: "I am a Software Engineer."
+    content: "I am a motivated full-stack Cyber Software Engineer at Northrop Grumman. I have experience in technologies ranging from building and deploying API's, developing cross platform applications and interfaces in various languages, as well as solving complex problems in security, communications, and software maintainability."
+    #image: /images/hero.svg
+#    button:
+#      enable: true
+#      name: "Resume"
+#      url: "#"
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://github.com/matthewweiler
+        - icon: fab fa-twitter
+          url: https://twitter.com/weiler_matt
+#      customIcons:
+#        - icon: /fav.png
+#          url: "https://example.com"
+
+  # About
+  about:
+    enable: true
+    title: "About Me"
+    content: |-
+      I am a cyber software engineer by day whilst a husband and father of one (soon to be two) by night. In my freetime I enjoy eating tacos, experimenting with coffee, and exploring technologies that I find interesting and want to learn.
+      I currently work as a cyber engineer at Northrop Grumman Corporation in Cincinnati, OH. Some technologies that I am currently interested in include TUI application development in golang, developer workflow enhancements with git and terraform, static site generation with hugo,
+      and learning from and teaching others the skills I am exploring.
+    skills:
+      enable: true
+      title: "Here are a few technologies I've been working with recently:"
+      items:
+        - "C/C++"
+        - "Python"
+        - "SWIG"
+        - "Golang"
+        - "Docker"
+        - "Git Flow"
+
+  # Experience
+  experience:
+    enable: true
+    items:
+      - job: "Principal Cyber Software Engineer"
+        company: "Northrop Grumman Corporation"
+        companyUrl: "https://www.northropgrumman.com/"
+        date: "Jan 2019 - present"
+#        featuredLink:
+#          enable: true
+#          name: "View the project"
+#          url: "https://example.com"
+        content: |
+          I current work for Northrop Grumman Corporation in Cincinnati, OH as a Software Engineer. Northrop Grumman solves some of the toughest problems in cyber-security to meet the ever evolving needs of customers worldwide. Some of my responsibilities include:
+
+          - Leading and Developing multi-million dollar full-stack security solutions in various coding languages
+          - Maintaining code base and git repository for project solution
+          - Code reviewing peer engineering work
+          - Testing code through automated CI testing infrastructure
+          - Detecting and hunting bugs and/or regressions through remote and local debuggers
+          - Maintaining an agile development process by assigning tasks and ensuring product release cycles are on schedule
+
+      - job: "Software Engineer"
+        company: "KeyW Corporation"
+        companyUrl: "https://www.jacobs.com/"
+        date: "May 2018 - Jan 2019"
+        content: |
+          I worked at KeyW Corporation (now Jacobs) in Beavercreek, OH while in my Masters program at The University of Dayton.
+
+          - Develop and lead novel solutions to displaying high-resolution imagery and data to drive customer decisions
+          - Maintain active and beta versioning for deployed solution
+          - Migrate and update 3rd-party utililzed softwares
+
+      - job: "Computer Science: Teaching and Graduate Assistant"
+        company: "University of Dayton"
+        companyUrl: "https://udayton.edu/"
+        date: "Jan 2017 - Dec 2018"
+        content: |
+          While attending the University of Dayton, I worked as both a teaching and graduate assistant. During this time, I was responsible for teaching supplemental office hour lectures as well as aiding in the development of student understanding of:
+
+          - Aid in the development of students understanding of
+          - "Basics of Programming: Entry level classes"
+          - C programming language
+          - Responsibilities of an Operating System and how it functions
+          - Multi-Process and Multi-Threaded application development
+          - Communicating Sequential Processes and Threads
+          - Go programming language
+          - Elixir programming language (a variety of the Erlang)
+
+  # Education
+  education:
+    enable: true
+    items:
+      - title: "Bachelors and Masters of Science in Computer Science"
+        school:
+          name: "University of Dayton"
+          url: "https://example.org"
+        date: "2014 - 2018"
+        GPA: "3.8 and 4.0 out of 4.0 respectively"
+        content: |-
+          Extracurricular Activities
+            - "Graduate Assistant"
+            - "ICPC ACM Programming Competition"
+            - "Arduino Development"
+            - "Soil Moisture Hydrometer on Raspberry Pi with OSUS Research"
+            - "Raspberry Pi System Development"
+            - "Rowing Team"
+        featuredLink:
+          enable: true
+          name: "My academic record"
+          url: "https://example.com"
+      - title: "Certifications"
+        school:
+          name: "Black Hat and Infiltrate Conferences"
+        date: "2019 - 2021"
+        content: |-
+          Since formal education has ended at univeristy, I have had the opportunity to take two different courses at Black Hat in Las Vegas. These 4-day courses include:
+          - [2019: Advanced Infrastructure Hacking by NotSoSecure](https://www.blackhat.com/us-19/training/schedule/#advanced-infrastructure-hacking----edition--day-14046)
+          - [2020: Reverse-Engineering with Ghidra (4-Day), by Jeremy Blackthorne](https://infiltratecon.com/conference/training/reverse-engineering-with-ghidra.html)
+          - [2021: A Complete Practical Approach To Malware Analysis And Memory Forensics by Monnappa & Sajan Shetty](https://www.blackhat.com/us-21/training/schedule/#a-complete-practical-approach-to-malware-analysis-and-memory-forensics----edition-21879)
+
+  #Contact
+  contact:
+    enable: true
+    email: matthewweiler96@gmail.com
+    btnName: Mail me
+
+  footer:
+    recentPosts: false
+    socialNetworks:
+      github: https://github.com/matthewweiler
+      linkedin: https://www.linkedin.com/in/matthewweiler/
+      twitter: https://twitter.com/weiler_matt
