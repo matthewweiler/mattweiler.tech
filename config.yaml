@@ -92,7 +92,7 @@ params:
     title: "Matt."
     subtitle: "I am a Software Engineer."
     content: "I am a motivated full-stack Cyber Software Engineer at Northrop Grumman. I have experience in technologies ranging from building and deploying API's, developing cross platform applications and interfaces in various languages, as well as solving complex problems in security, communications, and software maintainability."
-    #image: /images/hero.svg
+    image: /profile.png
 #    button:
 #      enable: true
 #      name: "Resume"
