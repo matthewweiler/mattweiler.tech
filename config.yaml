@@ -182,7 +182,7 @@ params:
       - title: "Bachelors and Masters of Science in Computer Science"
         school:
           name: "University of Dayton"
-          url: "https://example.org"
+          url: "https://udayton.edu/"
         date: "2014 - 2018"
         GPA: "3.8 and 4.0 out of 4.0 respectively"
         content: |-
@@ -193,10 +193,10 @@ params:
             - "Soil Moisture Hydrometer on Raspberry Pi with OSUS Research"
             - "Raspberry Pi System Development"
             - "Rowing Team"
-        featuredLink:
-          enable: true
-          name: "My academic record"
-          url: "https://example.com"
+#        featuredLink:
+#          enable: true
+#          name: "My academic record"
+#          url: "https://example.com"
       - title: "Certifications"
         school:
           name: "Black Hat and Infiltrate Conferences"
