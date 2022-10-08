@@ -200,12 +200,13 @@ params:
       - title: "Certifications"
         school:
           name: "Black Hat and Infiltrate Conferences"
-        date: "2019 - 2021"
+        date: "2019 - 2022"
         content: |-
-          Since formal education has ended at univeristy, I have had the opportunity to take two different courses at Black Hat and one course at Infiltrate Con. These 4-day courses include:
+          Since formal education has ended at univeristy, I have had the opportunity to take three different courses at Black Hat and one course at Infiltrate Con. These 4-day courses include:
           - [2019: Advanced Infrastructure Hacking by NotSoSecure](https://www.blackhat.com/us-19/training/schedule/#advanced-infrastructure-hacking----edition--day-14046)
           - [2020: Reverse-Engineering with Ghidra (4-Day), by Jeremy Blackthorne](https://infiltratecon.com/conference/training/reverse-engineering-with-ghidra.html)
-          - [2021: A Complete Practical Approach To Malware Analysis And Memory Forensics by Monnappa & Sajan Shetty](https://www.blackhat.com/us-21/training/schedule/#a-complete-practical-approach-to-malware-analysis-and-memory-forensics----edition-21879)
+          - [2021: A Complete Practical Approach To Malware Analysis And Memory Forensics by Monnappa & Sajan Shetty](https://www.blackhat.com/us-21/training/schedule/#a-complete-practical-approach-Blackto-malware-analysis-and-memory-forensics----edition-21879)
+          - [2022: Offensive Mobile Reversing and Exploitation](https://www.blackhat.com/us-22/training/schedule/#offensive-mobile-reversing-and-exploitation-25576)
 
   #Contact
   contact:
